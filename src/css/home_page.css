@@ -1,0 +1,7 @@
+.homeBody {
+  padding: 60px 25px;
+  flex: 0.85;
+  height: 90vh;
+  overflow-y: overlay;
+  background-color: #121212;
+}

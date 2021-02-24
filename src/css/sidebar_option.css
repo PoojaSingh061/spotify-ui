@@ -1,0 +1,35 @@
+.sidebarOption > h4 {
+  font-weight: 700;
+}
+
+.sidebarOption > span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.sidebarOption:hover,
+.sidebarOptionWithIcon:hover {
+  color: #ffffff;
+}
+
+.sidebarOptionIcon {
+  margin: 0 10px;
+}
+
+.sidebarOption,
+.sidebarOptionWithIcon {
+  color: #b3b3b3;
+  align-items: center;
+  height: 40px;
+  cursor: pointer;
+  transition: 200ms color ease-in;
+  font-weight: 600;
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebarOptionWithIcon:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-radius: 5px;
+}

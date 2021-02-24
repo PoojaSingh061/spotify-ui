@@ -1,0 +1,23 @@
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.icons > .MuiSvgTcon-root {
+  margin-right: 20px;
+}
+
+.shuffleIcon {
+  color: #1ed15e;
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shuffleIcon:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}

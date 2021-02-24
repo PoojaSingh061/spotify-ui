@@ -1,0 +1,60 @@
+.album {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 70px;
+  flex: 0.4;
+}
+
+.songInfo {
+  display: flex;
+  flex: 0.6;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.songInfo > img {
+  height: 40px;
+  width: 40px;
+}
+
+.songRow {
+  align-items: center;
+  border-radius: 4px;
+  color: #ffffff;
+  display: flex;
+
+  margin: 0 20px;
+  padding: 10px;
+  z-index: 100;
+}
+
+.songRow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.songRowInfo {
+  margin-left: 20px;
+  min-width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.songRowInfo > h1 {
+  font-size: 16px;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+
+.songRowInfo > span {
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 3px;
+}

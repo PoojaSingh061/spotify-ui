@@ -1,0 +1,84 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 90px;
+  width: 98%;
+  background-color: #282828;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.footerCenter {
+  padding: 0 100px;
+  color: #b2b2b2;
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  justify-content: space-between;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.footerGreen {
+  color: #1ed15e;
+}
+
+.footerIcon:hover,
+.footerGreen:hover {
+  transition: transform 0.1s ease-in-out;
+  transform: scale(1.1) !important;
+  color: #ffffff;
+}
+
+.footerLeft {
+  flex: 0.25;
+  min-width: 170px;
+  display: flex;
+  align-items: center;
+  color: #b2b2b2;
+}
+
+.footerLeft > img {
+  width: 55px;
+  height: 55px;
+}
+
+.footerRight {
+  flex: 0.25;
+  min-width: 150px;
+  max-width: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #b2b2b2;
+}
+
+.footerRight *.MuiSlider-root {
+  color: #b2b2b2;
+}
+
+.footerRight *.MuiSlider-root:hover {
+  color: #1ed15e;
+}
+
+.songDetails > h5 {
+  font-weight: 500;
+  margin: 2px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  text-align: left;
+}
+
+.songDetails > h6 {
+  color: #b2b2b2;
+  margin: 2px 15px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.015em;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.cardHeading {
+  text-decoration: none;
+  margin: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+  max-width: 100%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cardsWrap {
+  padding-bottom: 1.8rem;
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  overflow-y: hidden;
+  grid-auto-rows: auto;
+  grid-template-rows: 1fr;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seeAll {
+  font-size: 12px;
+  margin-right: 20px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  right: 20px;
+  color: #b3b3b3;
+}
+
+.cardHeading:hover,
+.seeAll:hover {
+  text-decoration: underline;
+}

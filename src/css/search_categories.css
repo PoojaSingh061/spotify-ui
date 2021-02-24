@@ -1,0 +1,60 @@
+.extra {
+  display: grid;
+  overflow-y: hidden;
+  /* grid-gap: 24px; */
+  gap: 24px;
+  grid-template-rows: 1fr;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.heading {
+  padding: 16px;
+  line-height: 1.3em;
+  letter-spacing: -0.04em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  right: 0;
+  -webkit-transform: rotate(25deg) translate(18%, -2%);
+  transform: rotate(25deg) translate(18%, -2%);
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  vertical-align: baseline;
+}
+
+.tabs {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.4))
+  );
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.4));
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.342),
+      rgba(255, 255, 255, 0.021)
+    )
+    #1877f2;
+  min-height: 180px;
+  width: 100%;
+  height: 100%;
+}
